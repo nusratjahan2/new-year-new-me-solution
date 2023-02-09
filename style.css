@@ -35,8 +35,31 @@ header{
 /* section style */
 .section1{
    display: flex;
+   padding: 200px 150px;
    align-items: center;
-   height: 700px;
-   width: 550px;
+   justify-content: space-between;
+}
+.section1 img{
+    height: 650px;
+    width: 550;
+}
+.section1_text{
+    height: 400px;
+    width: 415px;
+    text-align: left;
+}
+.section1_text h1{
+    font-size: 40px;
+    font-weight: 700;
+}
+.section1_text p{
+    padding: 20px 0;
+    font-size: 16px;
+    font-weight: 400;
+}
+.section1_text ul{
+    padding: 10px 40px;
+    font-size: 16px;
+    font-weight: 400;
 }
 
