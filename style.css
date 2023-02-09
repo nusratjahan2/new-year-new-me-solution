@@ -1,0 +1,42 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-family: 'Lobster', cursive;
+    font-family: 'Roboto', sans-serif;
+    font-family: 'Work Sans', sans-serif;
+}
+header{
+    
+}
+.banner{
+    background-image: url(images/banner/banner3.png);
+    display: flex;
+    flex-direction: column;
+    align-items: flex-end;
+    text-align: justify;
+    padding: 250px 100px;
+}
+.banner_text{
+    width: 400px;
+}
+.banner_text h1{
+    font-size: 50px;
+}
+.banner_text p{
+    margin: 10px 0;
+    font-size: 15px;
+}
+.banner_text button{
+    padding: 10px 15px;
+    font-size: 15px;
+    font-weight: 600;
+}
+
+/* section style */
+.section1{
+   display: flex;
+   align-items: center;
+   height: 700px;
+   width: 550px;
+}
+
