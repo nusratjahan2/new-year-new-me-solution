@@ -28,6 +28,10 @@
     padding: 10px 15px;
     font-size: 15px;
     font-weight: 600;
+    border: none;
+    border-radius: 5px;
+    background-color: #ffff;
+    color: #005FAC;
 }
 
 /* section style */
@@ -60,6 +64,7 @@
     font-size: 16px;
     font-weight: 400;
 }
+/* section 2 */
 .section2{
   display: flex;
   justify-content: center;
@@ -82,37 +87,57 @@
     text-align: center;
 }
 
+/* section 3 */
 .section3{
-    /* background-color: #005FAC; */
-    background-image: url(images/watch.png), url(images/gradient1.png);
+    background-image: url(images/watch.png);
     background-repeat: no-repeat;
-    background-position: center;
+    margin: 100px auto;
     height: 300px;
     width: 1140px;
-    border-radius: 8px;
-    padding: 65px;
-    margin-top: 50px;
+    display: flex;
+    justify-content: center;
+    align-items: flex-start;
+    flex-direction: column;
+
 }
 .section3_text{
-    padding: 65px;
-    width: 350px;
-    height: 150px;
+    height: 300px;
+    width: 1140px;
+    background-image: url(images/gradient1.png);
+}
+.section3 h1{
+   height: 90px;
+   width: 450px;
+   font-size: 40px;
+   font-weight: 700;
+   padding: 40px 50px;
+   color: #ffff;
+}
+.section3 button{
+   font-size: 15px;
+   font-weight: 600;
+   margin-top: 20px;
+   margin-left: 40px;
+   padding: 15px;
+   border: none;
+   border-radius: 5px;
+   background-color: #ffff;
+   color: #005FAC;
+}
+
+/* section 4 */
+.section4{
+    margin-bottom: 50px;
     display: flex;
-    align-items: flex-start;
     justify-content: center;
-    flex-direction: column; 
+    align-items: center;
+    flex-direction: column;
 }
-.section3_text h1{
+.section4 h1{
     font-size: 40px;
-    font-weight: 700;
 }
-.section3_text button{
-    font-size: 20px;
-    font-weight: 600;
-    padding: 15px 30px;
-    margin-top: 20px;
-    border: none;
-    border-radius: 5px;
+.section4 img{
+    padding: 50px;
 }
 
 /* footer style */
