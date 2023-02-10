@@ -5,6 +5,7 @@
     font-family: 'Roboto', sans-serif;
     font-family: 'Work Sans', sans-serif;
 }
+
 .banner{
     background-image: url(images/banner/banner3.png);
     display: flex;
@@ -114,3 +115,50 @@
     border-radius: 5px;
 }
 
+/* footer style */
+.footer{
+    background-color: #005FAC;
+    ;
+    color: #ffff;
+    padding: 100px 200px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+.footer1{
+  height: 300px;
+  width: 450px;
+}
+.footer1 h1{
+   font-size: 45px;
+   font-weight: 700;
+}
+.footer1 p{
+    margin: 15px 0;
+  font-size: 16px;
+  font-weight: 400;
+}
+.footer2{
+    display: flex;
+    flex-direction: column;
+  height: 280px;
+  width: 300px;
+}
+.footer2 h3{
+    font-size: 25px;
+    font-weight: 600;
+}
+.footer2 input{
+    margin: 20px 0;
+    padding: 10px;
+    border-radius: 8px;
+    border: none;
+}
+.footer2 button{
+    color:#005FAC;
+    background-color: #ffff;
+    height: 40px;
+    width: 100px;
+    border: none;
+    border-radius: 8px;
+}
